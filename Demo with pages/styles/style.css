@@ -1,0 +1,36 @@
+#main_data.tab-container > .tab-links > li:first-child
+{
+  
+}
+#main_data.tab-container > .tab-links > li:nth-child(2)
+{
+    border-left:0px;
+}
+
+#main_data.tab-container > .tab-links > li.active:nth-child(2)
+{
+   
+}
+
+
+#main_data.tab-container > .tab-links > li sup
+{
+    line-height: 0px;
+}
+
+
+
+#main_data
+{
+    visibility:hidden;
+}
+
+#main_data.visible
+{
+    visibility:visible;
+}
+div.subpage_container>ul.sub-links > li > a > * 
+{
+    padding-left: 29px;
+    padding-right: 29px;
+}

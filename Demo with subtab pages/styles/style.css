@@ -1,0 +1,121 @@
+#main_data.tab-container > .tab-links > li:first-child
+{
+  
+}
+#main_data.tab-container > .tab-links > li:nth-child(2)
+{
+    border-left:0px;
+}
+
+#main_data.tab-container > .tab-links > li.active:nth-child(2)
+{
+   
+}
+
+
+#main_data.tab-container > .tab-links > li sup
+{
+    line-height: 0px;
+}
+
+
+
+#main_data
+{
+    visibility:hidden;
+}
+
+#main_data.visible
+{
+    visibility:visible;
+}
+div.subpage_container>ul.sub-links > li > a > * 
+{
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+/*Put your CSS below*/
+
+#tab{
+	position: absolute;
+	top: 280px;
+    left: 20px;
+    height: 880px;
+    width: 2010px;
+	background-color: #000000;
+}
+
+#tab1{
+	position: absolute;
+    top: 11px;
+    left: 10px;
+    height: 860px;
+    width: 1991px;
+	background-color: teal;
+}
+#tab2{
+	position: absolute;
+	top: 11px;
+    left: 10px;
+    height: 860px;
+    width: 1991px;
+	background-color: silver;
+	display: none;
+}
+#tab3{
+	position: absolute;
+	top: 11px;
+    left: 10px;
+    height: 860px;
+    width: 1991px;
+	background-color: green;
+	display: none;
+}
+#tab4{
+	position: absolute;
+	top: 11px;
+    left: 10px;
+    height: 860px;
+    width: 1991px;
+	background-color: blue;
+	display: none;
+}
+
+#tab1_active{
+	position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 96px;
+    width: 461px;
+    background-color: teal;
+    z-index: 1;
+}
+#tab2_active{
+	position: absolute;
+	top: 10px;
+	left: 477px;
+	height: 96px;
+	width: 461px;
+	background-color: silver;
+	z-index: 1;
+}
+#tab3_active{
+	position: absolute;
+	top: 10px;
+	left: 945px;
+	height: 96px;
+	width: 461px;
+	background-color: green;
+	z-index: 1;
+}
+#tab4_active{
+	position: absolute;
+	top: 10px;
+	left: 1413px;
+	height: 96px;
+	width: 461px;
+	background-color: blue;
+	z-index: 1;
+}
+
